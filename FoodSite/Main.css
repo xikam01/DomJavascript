@@ -27,6 +27,8 @@
     text-decoration: none;
     text-transform: capitalize;
     list-style: none;
+    box-shadow: none;
+    box-sizing: border-box;
 }
 
 body
@@ -231,6 +233,10 @@ header section >.images_box, .Contect_box
   width: 55%;
 }
 
+.Contect_box >
+{
+  background: transparent;
+}
 .Contect_box >h1
 {
   font-family: var(--SecondFOnt);
@@ -238,7 +244,9 @@ header section >.images_box, .Contect_box
   font-weight: 700;
   font-style: normal;
   color:#000000;
+  background: none;
 }
+
 .Contect_box h1 span
 {
     background: none;
@@ -248,9 +256,44 @@ header section >.images_box, .Contect_box
 {
     display: flex;
     align-items: center;
-}
-.Contect_box >.Butoonts
-{
-   
+    margin-top: 20px;
+    background: none;
 }
 
+.Contect_box >.Butoonts>a
+{
+   position: relative;
+   padding: 10px 20px;
+   background: #f44336;
+   color: white;
+   font-size: 12px;
+   border-radius: 20px;
+   margin-right: 10px;
+   transition: .3s linear;
+   overflow: hidden;
+}
+
+.Contect_box >.Butoonts>a:nth-child(2)
+{
+  background: #dfd9d9;
+  color: #000;
+}
+
+.Contect_box >.Butoonts>a:nth-child(2)
+{
+  background: none;
+}
+
+.Contect_box >.Reviews
+{
+  margin-top: 30px;
+}
+
+.Contect_box >.Reviews >.Cart
+{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+
+}
