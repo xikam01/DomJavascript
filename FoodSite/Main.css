@@ -203,3 +203,55 @@ header .Callback
     filter: hue-rotate(360deg);
  }
 
+header section
+{
+    width: 85%;
+    height: 350px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px 10px 0px 0px;
+    background: #00000021;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+header section >.images_box, .Contect_box
+{
+   position: relative;
+   width: 45%;
+   height: 94%;
+   border: 1px solid #000;
+   margin: auto;
+    padding: .2rem .3rem;
+}
+
+header section >.images_box, .Contect_box
+{
+  width: 55%;
+}
+
+.Contect_box >h1
+{
+  font-family: var(--SecondFOnt);
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-style: normal;
+  color:#000000;
+}
+.Contect_box h1 span
+{
+    background: none;
+}
+
+.Contect_box >.Butoonts
+{
+    display: flex;
+    align-items: center;
+}
+.Contect_box >.Butoonts
+{
+    display: flex;
+    align-items: center;
+}
+
