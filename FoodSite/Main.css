@@ -85,6 +85,21 @@ header .Callback
     transform: translateY(10px);
     user-select: none;
 }
+
+.NavigationBar>.logo
+{
+    font-family:var(--SecondFOnt);
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.NavigationBar>.logo span
+{
+   color: #f44336;
+   font-weight: 600;
+}
+
 .NavigationBar>ul
 {
     display: flex;
@@ -188,16 +203,3 @@ header .Callback
     filter: hue-rotate(360deg);
  }
 
-
-.NavigationBar>.logo
-{
-    font-family:var(--SecondFOnt);
-    font-size: 1rem;
-    font-weight: 600;
-    font-style: normal;
-}
-.NavigationBar>.logo span
-{
-   color: #f44336;
-   font-weight: 600;
-}
