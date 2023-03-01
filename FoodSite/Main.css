@@ -309,13 +309,13 @@ header section >.images_box, .Contect_box
  transition: .4s linear;
  display: grid;
  place-items:center;
+ border: 1px solid rgb(255, 6, 110);
 }
 
 .Contect_box >.Reviews >.Cart >.user img
 {
   width: 100%;
   height: 100%;
-  border: 1px solid rgb(255, 6, 110);
   border-radius: 50%;
   cursor: pointer;
 }
