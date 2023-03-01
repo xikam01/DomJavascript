@@ -301,8 +301,8 @@ header section >.images_box, .Contect_box
 .Contect_box >.Reviews >.Cart >.user
 {
  position: relative;
- width: 40px;
- height: 40px;
+ width: 30px;
+ height: 30px;
  background:#fff;
  border-radius: 50%;
  overflow: hidden;
@@ -315,16 +315,8 @@ header section >.images_box, .Contect_box
 {
   width: 100%;
   height: 100%;
-  border: 2px solid rgb(255, 6, 110);
+  border: 1px solid rgb(255, 6, 110);
   border-radius: 50%;
   cursor: pointer;
 }
 
-.Contect_box >.Reviews >.Cart >.user_2
-{
-  margin-left: -6px;
-}
-.Contect_box >.Reviews >.Cart:hover >.user_2
-{
-  margin-left:36px;
-}
