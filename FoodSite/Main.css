@@ -251,7 +251,6 @@ header section >.images_box, .Contect_box
 }
 .Contect_box >.Butoonts
 {
-    display: flex;
-    align-items: center;
+   
 }
 
