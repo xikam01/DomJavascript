@@ -298,6 +298,7 @@ header section >.images_box, .Contect_box
   margin-top: 5px;
 
 }
+
 .Contect_box >.Reviews >.Cart >.user
 {
  position: relative;
@@ -312,6 +313,7 @@ header section >.images_box, .Contect_box
  place-items:center;
  border: 1px solid rgb(255, 6, 110);
 }
+
 .Contect_box >.Reviews >.Cart >.user:hover
 {
    transform: translateX(10px);
