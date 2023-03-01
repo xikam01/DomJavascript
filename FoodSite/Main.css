@@ -307,13 +307,24 @@ header section >.images_box, .Contect_box
  border-radius: 50%;
  overflow: hidden;
  transition: .4s linear;
- cursor: pointer;
+ display: grid;
+ place-items:center;
 }
+
 .Contect_box >.Reviews >.Cart >.user img
 {
-
   width: 100%;
   height: 100%;
   border: 2px solid rgb(255, 6, 110);
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.Contect_box >.Reviews >.Cart >.user_2
+{
+  margin-left: -6px;
+}
+.Contect_box >.Reviews >.Cart:hover >.user_2
+{
+  margin-left:36px;
 }
