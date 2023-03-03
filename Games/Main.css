@@ -87,6 +87,7 @@ body
     background: #0c43bb;
     padding: .1rem .5rem;
     border-radius: .2rem;
+    font-family: var(--Mainfont);
 }
 .Container h1
 {
@@ -97,6 +98,7 @@ body
     color: white;
     text-transform: capitalize;
     background: none;
+    font-family: var(--Mainfont);
 }
 .Container h1 span
 {
