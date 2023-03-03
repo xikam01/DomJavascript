@@ -72,6 +72,9 @@ body
     font-size: 1rem;
     font-weight: 700;
     font-style: normal;
-    color:#0c43bb;
+    color:#ffffff;
     letter-spacing: 1px;
+    background: #0c43bb;
+    padding: .1rem .5rem;
+    border-radius: .2rem;
 }
