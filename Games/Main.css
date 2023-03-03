@@ -126,18 +126,11 @@ body
    border-radius: .2rem;
    outline: none;
    border: none;
+  transition: all .4s linear;
 }
-.ContaineValues input
+.ContaineValues input:hover
 {
-   background: none;
-   background:#0c43bb; 
-   padding: .3rem .3rem;
-   font-size: 1rem;
-   font-family: poppins;
-   font-weight: 600;
-   font-style: normal;
+   background: #03256e;
    color: white;
-   border-radius: .2rem;
-   outline: none;
-   border: none;
+   transition: all .4s linear;
 }
