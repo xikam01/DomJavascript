@@ -110,6 +110,7 @@ body
     padding: .1rem .5rem;
     border-radius: .2rem;
     background: #0c43bb;
+    font-family: var(--Mainfont);
 }
 
 .ContaineValues
