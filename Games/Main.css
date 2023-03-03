@@ -134,6 +134,12 @@ body
    color: white;
    transition: all .4s linear;
 }
+.ContaineValues input::placeholder
+{
+   
+   color: white;
+   
+}
 .ContaineValues button
 {
   background: #0c43bb;
