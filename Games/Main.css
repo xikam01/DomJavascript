@@ -105,11 +105,10 @@ body
    font-size: 1.4rem;
     font-weight: 800;
     font-style: normal;
-    color:#ffffff;
+    color:#e90765;
     letter-spacing: 1px;
     padding: .1rem .5rem;
     border-radius: .2rem;
-    background: #0c43bb;
     font-family: var(--Mainfont);
 }
 
@@ -167,10 +166,12 @@ body
   outline: none;
   border-radius: .1rem .5rem;
   transition: all .5s linear;
+  font-family: var(--Mainfont);
 }
 .ContaineValues button:hover
 {
     background: #03256e;
     color: white;
     transition: all .5s linear;
+    font-family: var(--Mainfont);
 }
