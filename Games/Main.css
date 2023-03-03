@@ -33,6 +33,23 @@ body
     background: #14213db0;
     transform: translateY(2rem);
     margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
+}
+.Navigation
+{
+    width: 100%;
+    height: auto;
+    padding: .2rem 3rem;
+    background: #010e2b;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+.Navigation >button
+{
+   background: var(--Backgoung2);
+   padding: .1rem .3rem;
+   border-radius: .1rem;
+  
 }
