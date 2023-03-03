@@ -142,4 +142,14 @@ body
   font-weight: 700;
   color: white;
   letter-spacing: 2px;
+  border: none;
+  outline: none;
+  border-radius: .1rem .5rem;
+  transition: all .5s linear;
+}
+.ContaineValues button:hover
+{
+    background: #03256e;
+    color: white;
+    transition: all .5s linear;
 }
