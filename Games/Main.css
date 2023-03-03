@@ -196,3 +196,16 @@ body
 }
 
 .GenerateNumber
+{
+    width: 10%;
+    height: 16vh;
+    border-radius: 50%;
+    margin:  0 auto;
+   text-align: center;
+   transform: translateY(1em);
+}
+
+.GenerateNumber >h2
+{
+   display: none;
+}
