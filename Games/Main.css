@@ -78,3 +78,7 @@ body
     padding: .1rem .5rem;
     border-radius: .2rem;
 }
+.Container h1
+{
+    margin-top: 2rem;
+}
