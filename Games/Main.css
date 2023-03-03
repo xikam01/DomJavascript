@@ -134,3 +134,11 @@ body
    color: white;
    transition: all .4s linear;
 }
+.ContaineValues button
+{
+  background: #0c43bb;
+  padding: .2rem .3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+}
