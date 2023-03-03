@@ -184,4 +184,5 @@ body
     display:inline-block;
     position: relative;
     font-family: var(--Mainfont);
+    border-radius: .6rem .4rem;
 }
