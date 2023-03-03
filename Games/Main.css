@@ -26,3 +26,13 @@ body
     background: var(--Backgoung3);
     padding: .2rem 2rem;
 }
+.Container
+{
+    width: 90%;
+    height: 88vh;
+    background: #14213db0;
+    transform: translateY(2rem);
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
