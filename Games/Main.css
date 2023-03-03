@@ -141,6 +141,7 @@ body
    outline: none;
    border: none;
   transition: all .4s linear;
+  font-family: var(--Mainfont);
 }
 .ContaineValues input:hover
 {
