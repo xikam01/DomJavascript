@@ -193,6 +193,7 @@ body
  top: 10%;
  font-size: 1.5rem;
  font-family: var(--Mainfont);
+ color: white;
 }
 
 .GenerateNumber
