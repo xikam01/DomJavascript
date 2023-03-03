@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+
 :root
 {
     --Backgoung1:#ffffff;
     --Backgoung2:#e5e5e5;
     --Backgoung3:#14213d;
     --Backgoung4:#000000;
+    --Mainfont:'Poppins', sans-serif;
 }
 
 *
@@ -25,6 +30,7 @@ body
     height: 100vh;
     background: var(--Backgoung3);
     padding: .2rem 2rem;
+    font-size: var(--Mainfont);
 }
 .Container
 {
@@ -36,6 +42,7 @@ body
     box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
     border-radius: .3rem;
     text-align: center;
+    font-family: var(--Mainfont);
 }
 .Navigation
 {
@@ -47,6 +54,7 @@ body
     align-items: center;
     justify-content: space-between;
     transform: translateY(1rem);
+    font-family: var(--Mainfont);
 }
 .Navigation >button
 {
@@ -136,9 +144,7 @@ body
 }
 .ContaineValues input::placeholder
 {
-   
    color: white;
-   
 }
 .ContaineValues button
 {
