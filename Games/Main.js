@@ -1,1 +1,6 @@
 const InputValue= document.querySelector('#id')
+const InputValue1= document.querySelector('#id')
+const InputValue2= document.querySelector('#id')
+const InputValue3= document.querySelector('#id')
+const InputValue4= document.querySelector('#id')
+const InputValue5= document.querySelector('#id')
