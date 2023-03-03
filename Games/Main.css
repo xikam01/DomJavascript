@@ -203,9 +203,14 @@ body
     margin:  0 auto;
    text-align: center;
    transform: translateY(1em);
+   position: relative;
 }
 
 .GenerateNumber >h2
 {
-   display: none;
+   display: block;
+   position: absolute;
+   top: 25%;
+   left: 45%;
+   color: white;
 }
