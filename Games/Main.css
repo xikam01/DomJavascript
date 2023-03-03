@@ -40,18 +40,23 @@ body
 .Navigation
 {
     width: 100%;
-    height: auto;
+    height: 4rem;
     padding: .2rem 3rem;
-    background: #010e2b;
+    background: #021e5a;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
     transform: translateY(1rem);
 }
 .Navigation >button
 {
-   background: var(--Backgoung2);
-   padding: .1rem .3rem;
+   background:#0c43bb;
+   padding: .1rem .6rem;
    border-radius: .1rem;
-  
+   font-size: 1rem;
+   font-weight: 700;
+   font-family: poppins;
+   color: whitesmoke;
+   letter-spacing: 2px;
+
 }
