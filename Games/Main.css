@@ -186,3 +186,11 @@ body
     font-family: var(--Mainfont);
     border-radius: .6rem .4rem;
 }
+.ErrorHandler> p
+{
+ position: absolute;
+ left: 48%;
+ top: 20%;
+ font-size: 2rem;
+ font-family: var(--Mainfont);
+}
