@@ -108,7 +108,18 @@ body
     height: 20vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: .2rem 6rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background: #021e5a98;
+}
+.ContaineValues input
+{
+   background: none;
+   background:#0c43bb; 
+   padding: .3rem .3rem;
+   font-size: 1rem;
+   font-family: poppins;
+   font-weight: 600;
+   font-style: normal;
 }
