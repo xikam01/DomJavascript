@@ -175,3 +175,12 @@ body
     transition: all .5s linear;
     font-family: var(--Mainfont);
 }
+
+.ErrorHandler
+{
+    margin-top: 2rem;
+    width: 80%;
+    height: 10vh;
+    display:inline-block;
+   justify-content: center;
+}
