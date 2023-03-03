@@ -127,3 +127,17 @@ body
    outline: none;
    border: none;
 }
+.ContaineValues input
+{
+   background: none;
+   background:#0c43bb; 
+   padding: .3rem .3rem;
+   font-size: 1rem;
+   font-family: poppins;
+   font-weight: 600;
+   font-style: normal;
+   color: white;
+   border-radius: .2rem;
+   outline: none;
+   border: none;
+}
