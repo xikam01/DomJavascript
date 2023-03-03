@@ -122,4 +122,8 @@ body
    font-family: poppins;
    font-weight: 600;
    font-style: normal;
+   color: white;
+   border-radius: .2rem;
+   outline: none;
+   border: none;
 }
