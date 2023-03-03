@@ -75,6 +75,7 @@ body
     font-style: normal;
     color: white;
     letter-spacing: 1px;
+    font-family: var(--Mainfont);
 }
 .Navigation >ul span
 {
