@@ -1,1 +1,2 @@
-const InputValue= document.querySelector('#id')
+const RandomNumber =Math.floor(Math.random()*20)+1
+
